@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 6px 0px 60px;
+  background-color: #0e0f1a;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+ul{
+  margin: 12px 0px 10px 0px;
+}
+
+.title {
+  flex-direction: column;
+}
+
+.logo-header {
+  margin: 0px 0px 0px 0px;
+  width: 46%;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(132, 14, 201);
+  transition: 0.3s all;
+}
+
+@media (min-width: 320px) and (max-width: 426px){
+  header{
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+  }
+  .logo-header{
+    margin-top: 5px;
+  }
+  ul{
+    margin: 0px 0px 0px 0px;
+  }
+  li{
+    margin: 0px 10px 3px 10px;
+  }
+}

@@ -1,0 +1,84 @@
+.pricing-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 3px 20px rgba(132, 14, 201, 0.8);
+  width: 60%;
+  margin: auto;
+}
+
+.pricing-features {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.pricing-features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-features ul li {
+  margin-bottom: 10px;
+}
+
+.line-divider {
+  width: 1px;
+  height: 300px;
+  margin: auto 0px auto 0px;
+  background-color: #ccc;
+}
+
+.pricing-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.price-per {
+  font-size: 16px;
+  color: #888;
+}
+
+.get-started-btn {
+  background-color: rgb(132, 14, 201);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.get-started-btn:hover {
+  background-color: rgb(90, 7, 137);
+}
+
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .pricing-container {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-features{
+        width: 80%;
+        margin: 0px;
+    }
+    .line-divider {
+        width: 100%;
+        height: 1px;
+        margin: 15px 0px 15px 0px;
+        background-color: #ccc;
+    }
+
+}

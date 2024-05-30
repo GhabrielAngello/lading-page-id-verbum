@@ -1,0 +1,50 @@
+.contato-container {
+  color: #333;
+  margin-top: 100px;
+}
+
+.contato-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 50px 0px 50px;
+}
+
+.contato-item {
+  background-color: white;
+  border-radius: 20px;
+  width: 320px;
+  height: 180px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .contato-group{
+    padding: 0px;
+  }
+  .info {
+    font-size: 10px;
+  }
+  .contato-item{
+    margin: 0px 5px 0px 5px;
+    width: 100%;
+    height: 100px;
+    padding: 2px;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+}
